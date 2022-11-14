@@ -17,7 +17,7 @@ To begin, let's start off with what I myself have brought to the table. All the 
 
 - Tools
 	- Webshells
-		- Located in `Tools/SecLists/Web-Shells`. The tools themselves are provided by Kali Linux but aren't installed by default. They are basic ones that you could use on any exploitable application that matches.
+		- Located in `Tools/SecLists/Web-Shells`. The tools themselves are provided by Kali Linux but aren't installed by default. They are basic ones that you could use on any exploitable application that matches. [Here's](https://www.kali.org/tools/seclists/) how to install them properly.
 
 - OpenBullet2
 	- This One's just a big one, you probably wont have to use it that often. Everything pertaining to this application can be found [here](https://github.com/openbullet/OpenBullet2).
@@ -27,6 +27,7 @@ To begin, let's start off with what I myself have brought to the table. All the 
 
 - HackingTool
 	- A suite of more applications meant for things such as Pentesting, Exploitation, Post-Exploitation, Phishing, Payload creation, and many more.
+	- [Github](https://github.com/Z4nzu/hackingtool)
 
 ____
 
