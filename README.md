@@ -23,7 +23,7 @@ To begin, let's start off with what I myself have brought to the table. All the 
 	- This One's just a big one, you probably wont have to use it that often. Everything pertaining to this application can be found [here](https://github.com/openbullet/OpenBullet2).
 
 - Responder
-	- The most recent github version. Way more up to date than the Kali Linux version. **REMEMBER TO RUN IT WITH PYTHON3**
+	- The most recent version can be found [here](https://github.com/SpiderLabs/Responder) on github. It's way more up to date than the Kali Linux version. **REMEMBER TO RUN IT WITH PYTHON3** 
 
 - HackingTool
 	- A suite of more applications meant for things such as Pentesting, Exploitation, Post-Exploitation, Phishing, Payload creation, and many more.
