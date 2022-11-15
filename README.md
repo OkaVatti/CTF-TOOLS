@@ -17,17 +17,16 @@ To begin, let's start off with what I myself have brought to the table. All the 
 
 - Tools
 	- Webshells
-		- Located in `Tools/SecLists/Web-Shells`. The tools themselves are provided by Kali Linux but aren't installed by default. They are basic ones that you could use on any exploitable application that matches. [Here's](https://www.kali.org/tools/seclists/) how to install them properly.
+		- Located in `Tools/SecLists/Web-Shells`. The tools themselves are provided by Kali Linux but aren't installed by default. They are basic ones that you could use on any exploitable application that matches.
 
 - OpenBullet2
 	- This One's just a big one, you probably wont have to use it that often. Everything pertaining to this application can be found [here](https://github.com/openbullet/OpenBullet2).
 
 - Responder
-	- The most recent version can be found [here](https://github.com/SpiderLabs/Responder) on github. It's way more up to date than the Kali Linux version. **REMEMBER TO RUN IT WITH PYTHON3** 
+	- The most recent github version. Way more up to date than the Kali Linux version. **REMEMBER TO RUN IT WITH PYTHON3**
 
 - HackingTool
 	- A suite of more applications meant for things such as Pentesting, Exploitation, Post-Exploitation, Phishing, Payload creation, and many more.
-	- [Github](https://github.com/Z4nzu/hackingtool)
 
 ____
 
@@ -43,7 +42,21 @@ That's pretty much it for everything I've provided you. Now let's get onto the t
 			- `nmap -p- --min-rate -sC -sV {TARGET_IP}`
 
 - netcat
-	- also known as `nc` within the terminal. It is integrated within the *nmap* package. More information can be found [here](https://www.computerhope.com/unix/nc.htm) and[there](https://www.geeksforgeeks.org/introduction-to-netcat/).
+	- also known as `nc` within the terminal. It is integrated within the *nmap* package. More information can be found [here](https://www.computerhope.com/unix/nc.htm) and [there](https://www.geeksforgeeks.org/introduction-to-netcat/).
+
+- Hashcat
+	- A tool used for password cracking. Simply provide a hash, salt, and a list of passwords.
+
+- John
+	- Also known as *John The Ripper*, it is a toolset that allows a user to crack passwords using many different meathods.
+
+- Hydra
+	- Hydra is a parallelized login cracker which supports numerous protocols to attack. It is very fast and flexible, and new modules are easy to add.
+		- This tool makes it possible for researchers and security consultants to show how easy it would be to gain unauthorized access to a system remotely.
+			- It supports: Cisco AAA, Cisco auth, Cisco enable, CVS, FTP, HTTP(S)-FORM-GET, HTTP(S)-FORM-POST, HTTP(S)-GET, HTTP(S)-HEAD, HTTP-Proxy, ICQ, IMAP, IRC, LDAP, MS-SQL, MySQL, NNTP, Oracle Listener, Oracle SID, PC-Anywhere, PC-NFS, POP3, PostgreSQL, RDP, Rexec, Rlogin, Rsh, SIP, SMB(NT), SMTP, SMTP Enum, SNMP v1+v2+v3, SOCKS5, SSH (v1 and v2), SSHKEY, Subversion, Teamspeak (TS2), Telnet, VMware-Auth, VNC and XMPP.
+
+- Wordlists
+	- Although I have provided several wordlists for you to uses. [Wordlists](https://www.kali.org/tools/wordlists/) contains many more that will be helpful for cracking certain machines and web-apps.
 
 - Python 3.0
 	- It's truely your best friend. If you need to quickly prop up an http server instance that reports back when a form of http connection is made. Very useful for when you're trying to confirm whether or not a payload as been successfully uploaded durring your exploitation of a system.
@@ -51,9 +64,13 @@ That's pretty much it for everything I've provided you. Now let's get onto the t
 			- `python3 -m http.server {port}`
 			- Example of `{port}`: 80 or 8000
 
+- SQLmap
+	- A tool used for checking for an exploit within a websites sql database that would allow for a reverse shell.
+
+- 
+
 and finally, last but not least...
 
 - **METASPLOIT**
 	- metasploit is a pentesting and exploitation framework designed for, well, hacking. The framework itself contains hundreds, even thousands of exploits for known vulnerabilities. Those for Windows and Linux alike.
-	- I honestly cannot teach you this. It's complex as fuck. Just lookup "metasploit tutorial" or "metasploit exploits". You can also look for exploits on **exploitdb**
-
+		- I honestly cannot teach you this. It's complex as fuck. Just lookup "metasploit tutorial" or "metasploit exploits". You can also look for exploits on **exploitdb** if you don't feel like searching through hundreds of options within the framework.
